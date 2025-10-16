@@ -131,8 +131,6 @@ class MemberServiceImplTest {
                 .hasMessageContaining("Member not found");
     }
 
-    // --------------------------------------------------------------------------------
-
     @Test
     void testDeleteMemberSuccess() {
         UUID id = member.getId();
